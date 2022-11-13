@@ -1,11 +1,23 @@
 <header class="header">
-  <h1>Shop</h1>
-  <form action="" class="header_search">
-    <input type="text" name="search" id="search" class="header_search-text"/>
-    <fa-icon [icon]="faMagnifyingGlass" class="header_search-icon"></fa-icon>
-  </form>
+  <h1 class="header_logo"><span>shop</span>ease</h1>
+
+  <nav class="header_nav">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Men</a></li>
+      <li><a href="#">Women</a></li>
+      <li><a href="#">About</a></li>
+    </ul>
+  </nav>
+  
   <div class="header_account">
+    <form action="" class="search">
+      <!-- <input type="text" name="search" id="search" class="header_search-text"/> -->
+      <fa-icon [icon]="faMagnifyingGlass" class="header_search-icon"></fa-icon>
+    </form>
     <button class="btn">login</button>
-    <button class="btn">signup</button>
+    <a href="#"><fa-icon [icon]="faShoppingCart" class="header_search-icon"></fa-icon></a>
+    
+
   </div>
 </header>

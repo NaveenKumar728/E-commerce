@@ -2,6 +2,34 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 30px;
-  background: red;
+  padding: 30px 60px;
+  margin: auto;
+
+  &_logo {
+    text-transform: uppercase;
+    font-size: 24px;
+
+    span {
+      color: #5c87ff;
+    }
+  }
+
+  &_nav {
+    ul {
+      display: flex;
+
+      li a {
+        padding: 0 16px;
+      }
+    }
+  }
+
+  &_account {
+    display: flex;
+    align-items: center;
+
+    .search {
+      margin: 0;
+    }
+  }
 }
